@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Beatmaker</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="sequencer">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <h1>beat🎵Maker</h1>
+            <div class="main">
+                
+            <div class="clap-track">
+            <div class="controls">
+             <h1>Clap</h1>
+            <button data-track="0" class="mute clap-volume">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="volume-mute" class="svg-inline--fa fa-volume-mute fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zM461.64 256l45.64-45.64c6.3-6.3 6.3-16.52 0-22.82l-22.82-22.82c-6.3-6.3-16.52-6.3-22.82 0L416 210.36l-45.64-45.64c-6.3-6.3-16.52-6.3-22.82 0l-22.82 22.82c-6.3 6.3-6.3 16.52 0 22.82L370.36 256l-45.63 45.63c-6.3 6.3-6.3 16.52 0 22.82l22.82 22.82c6.3 6.3 16.52 6.3 22.82 0L416 301.64l45.64 45.64c6.3 6.3 16.52 6.3 22.82 0l22.82-22.82c6.3-6.3 6.3-16.52 0-22.82L461.64 256z"></path></svg>
+            </button>
+            <select name="clap-select" id="clap-select">
+             <option value="./allSounds/clap-808.wav">Clap-808</option>
+            <option value="./allSounds/clap-analog.wav">Clap-analog</option>
+            <option value="./allSounds/clap-crushed.wav">Clap-crushed</option>
+            <option value="./allSounds/clap-flat.wav">Clap-flat</option>
+            <option value="./allSounds/clap-tape.wav">Clap-tape</option>
+            <option value="./allSounds/clap-slapper.wav">Clap-slapper</option>
+            </select>
+</div> 
+<div class="clap">
+    <div class="pad clap-pad b0"></div>
+    <div class="pad clap-pad b1"></div>
+    <div class="pad clap-pad b2"></div>
+    <div class="pad clap-pad b3"></div>
+    <div class="pad clap-pad b4"></div>
+    <div class="pad clap-pad b5"></div>
+    <div class="pad clap-pad b6"></div>
+    <div class="pad clap-pad b7"></div>
+</div>
+    </div>
+            <div class="snare-track">
+                <div class="controls">
+                    <h1>Snare</h1>
+                    <button data-track="1" class="mute snare-volume">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="volume-mute" class="svg-inline--fa fa-volume-mute fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zM461.64 256l45.64-45.64c6.3-6.3 6.3-16.52 0-22.82l-22.82-22.82c-6.3-6.3-16.52-6.3-22.82 0L416 210.36l-45.64-45.64c-6.3-6.3-16.52-6.3-22.82 0l-22.82 22.82c-6.3 6.3-6.3 16.52 0 22.82L370.36 256l-45.63 45.63c-6.3 6.3-6.3 16.52 0 22.82l22.82 22.82c6.3 6.3 16.52 6.3 22.82 0L416 301.64l45.64 45.64c6.3 6.3 16.52 6.3 22.82 0l22.82-22.82c6.3-6.3 6.3-16.52 0-22.82L461.64 256z"></path></svg>
+                    </button>
+                    <select name="snare-select" id="snare-select">
+                        <option value="./allSounds/snare-808.wav">Snare-808</option>
+                        <option value="./allSounds/snare-analog.wav">Snare-analog</option>
+                        <option value="./allSounds/snare-big.wav">Snare-big</option>
+                        <option value="./allSounds/snare-block.wav">Snare-block</option>
+                        <option value="./allSounds/snare-brute.wav">Snare-brute</option>
+                        <option value="./allSounds/snare-electro.wav">Snare-electro</option>
+                        <option value="./allSounds/snare-noise.wav">Snare-noise</option>
+                        <option value="./allSounds/snare-pinch.wav">Snare-pinch</option>
+                    </select>
+                </div> 
+                <div class="snare">
+                    <div class="pad snare-pad b0"></div>
+                    <div class="pad snare-pad b1"></div>
+                    <div class="pad snare-pad b2"></div>
+                    <div class="pad snare-pad b3"></div>
+                    <div class="pad snare-pad b4"></div>
+                    <div class="pad snare-pad b5"></div>
+                    <div class="pad snare-pad b6"></div>
+                    <div class="pad snare-pad b7"></div>
+                </div>
+            </div>
+            <div class="hihat-track">
+                <div class="controls">
+                    <h1>Hihat</h1>
+                    <button data-track="2" class="mute hihat-volume">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="volume-mute" class="svg-inline--fa fa-volume-mute fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zM461.64 256l45.64-45.64c6.3-6.3 6.3-16.52 0-22.82l-22.82-22.82c-6.3-6.3-16.52-6.3-22.82 0L416 210.36l-45.64-45.64c-6.3-6.3-16.52-6.3-22.82 0l-22.82 22.82c-6.3 6.3-6.3 16.52 0 22.82L370.36 256l-45.63 45.63c-6.3 6.3-6.3 16.52 0 22.82l22.82 22.82c6.3 6.3 16.52 6.3 22.82 0L416 301.64l45.64 45.64c6.3 6.3 16.52 6.3 22.82 0l22.82-22.82c6.3-6.3 6.3-16.52 0-22.82L461.64 256z"></path></svg>
+                    </button>
+                    <select name="hihat-select" id="hihat-select">
+                        <option value="./allSounds/hihat-808.wav">Hihat-808</option>
+                        <option value="./allSounds/hihat-analog.wav">Hihat-analog</option>
+                        <option value="./allSounds/hihat-electro.wav">Hihat-electro</option>
+                        <option value="./allSounds/hihat-reso.wav">Hihat-reso</option>
+                        <option value="./allSounds/hihat-plain.wav">Hihat-plain</option>
+                        <option value="./allSounds/hihat-ring.wav">Hihat-ring</option>
+                       
+                    </select>
+                </div> 
+                <div class="hihat">
+                    <div class="pad hihat-pad b0"></div>
+                    <div class="pad hihat-pad b1"></div>
+                    <div class="pad hihat-pad b2"></div>
+                    <div class="pad hihat-pad b3"></div>
+                    <div class="pad hihat-pad b4"></div>
+                    <div class="pad hihat-pad b5"></div>
+                    <div class="pad hihat-pad b6"></div>
+                    <div class="pad hihat-pad b7"></div>
+                </div>
+                    </div>
+                    <div class="kick-track">
+                        <div class="controls">
+                            <h1>Kick</h1>
+                            <button data-track="3" class="mute kick-volume">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="volume-mute" class="svg-inline--fa fa-volume-mute fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zM461.64 256l45.64-45.64c6.3-6.3 6.3-16.52 0-22.82l-22.82-22.82c-6.3-6.3-16.52-6.3-22.82 0L416 210.36l-45.64-45.64c-6.3-6.3-16.52-6.3-22.82 0l-22.82 22.82c-6.3 6.3-6.3 16.52 0 22.82L370.36 256l-45.63 45.63c-6.3 6.3-6.3 16.52 0 22.82l22.82 22.82c6.3 6.3 16.52 6.3 22.82 0L416 301.64l45.64 45.64c6.3 6.3 16.52 6.3 22.82 0l22.82-22.82c6.3-6.3 6.3-16.52 0-22.82L461.64 256z"></path></svg>
+                            </button>
+                            <select name="kick-select" id="kick-select">
+                                <option value="./allSounds/kick-808.wav">Kick-808</option>
+                                <option value="./allSounds/kick-big.wav">Kick-big</option>
+                                <option value="./allSounds/kick-dry.wav">Kick-dry</option>
+                                <option value="./allSounds/kick-floppy.wav">Kick-floppy</option>
+                                <option value="./allSounds/kick-heavy.wav">Kick-heavy</option>
+                                <option value="./allSounds/kick-gritty.wav">Kick-gritty</option>
+                               
+                            </select>
+                        </div> 
+                        <div class="kick">
+                            <div class="pad kick-pad b0"></div>
+                            <div class="pad kick-pad b1"></div>
+                            <div class="pad kick-pad b2"></div>
+                            <div class="pad kick-pad b3"></div>
+                            <div class="pad kick-pad b4"></div>
+                            <div class="pad kick-pad b5"></div>
+                            <div class="pad kick-pad b6"></div>
+                            <div class="pad kick-pad b7"></div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                <div class="play-main">
+                <button class= play>Play</button></div>
+            </div> 
+       
+        <audio class="clap-sound" src="./allSounds/clap-analog.wav"></audio>
+        <audio class="hihat-sound" src="./allSounds/hihat-acoustic01.wav"></audio>
+        <audio class="kick-sound" src="./allSounds/kick-big.wav"></audio>
+        <audio class="snare-sound" src="./allSounds/snare-dist01.wav"></audio>
+       
+       <script src="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />"></script>
+       <script src="./app.js" ></script>
+    </body>
+</html>
